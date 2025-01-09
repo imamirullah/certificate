@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://amiruncodemy:x86Gg0op2iGx0dhG@cluster0.kzkkh.mongodb.net/', {
+mongoose.connect('mongodb+srv://at604281:wetware9211@dashboarddb.ysw862b.mongodb.net/CERTIFICATE-DB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('Connected to MongoDB'))
