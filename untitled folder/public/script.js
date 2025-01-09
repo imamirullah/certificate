@@ -28,7 +28,7 @@ document.getElementById("generateButton").addEventListener("click", async functi
   // Send data to the server
   // let cerficateno = `UC / 2025 / 01 / ${counter}`
   try {
-    const response = await fetch('http://localhost:5000/generate', {
+    const response = await fetch('/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, phone })
